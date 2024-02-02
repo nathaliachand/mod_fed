@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jotai": "^2.6.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.1"
+  }
+}
