@@ -13,7 +13,7 @@ export default defineConfig({
         itemsdetail: "https://micro-fe-chi.vercel.app/remoteEntry.js",
         from: "webpack",
       },
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "webpack"],
     }),
   ],
   build: {
@@ -22,4 +22,8 @@ export default defineConfig({
     minify: false,
     cssCodeSplit: false,
   },
+  // optimizeDeps: {
+  //   include: ["@module-federation/remoteEntry.js"],
+  //   exclude: ["js-big-decimal"],
+  // },
 });
