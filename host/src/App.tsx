@@ -3,7 +3,7 @@ import "./App.css";
 
 import Button from "remoteApp/Button";
 import useCount from "./store";
-// import Header from "itemsdetail/Header";
+import Header from "itemsdetail/Header";
 
 function App() {
   // const [count, setCount] = useCount();
@@ -12,7 +12,7 @@ function App() {
     <>
       <h1>Host</h1>
       <Button />
-      {/* <Header /> */}
+      <Header />
       <div className="card">
         {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
