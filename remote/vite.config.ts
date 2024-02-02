@@ -12,7 +12,7 @@ export default defineConfig({
       // Modules to expose
       exposes: {
         "./Button": "./src/components/Button.tsx",
-        "./store": "./src/store/store.js",
+        // "./store": "./src/store/store.js",
       },
       shared: ["react", "react-dom", "jotai"],
     }),
